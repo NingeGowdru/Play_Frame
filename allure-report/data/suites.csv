@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2589","User login test @master @sanity @regression","chromium","2026-08-08","passed","2026-08-08","","Login.spec.ts","",""
+"","2389","User login test @master @sanity1 @regression","chromium","2026-08-08","passed","2026-08-08","","Login.spec.ts","",""

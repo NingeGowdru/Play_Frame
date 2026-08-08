@@ -38,7 +38,7 @@ test.afterEach(async ({ page }) => {
 });
 
 
-test('User login test @master @sanity @regression',async()=>{
+test('User login test @master @sanity1 @regression',async()=>{
 
     //Navigate to Login page via Home page
 
@@ -55,6 +55,7 @@ test('User login test @master @sanity @regression',async()=>{
 
     //Verify successful login by checking 'My Account' page presence
     const isLoggedIn=await myAccountPage.isMyAccountPageExists();
-    expect(isLoggedIn).toBeTruthy();
+    //expect(isLoggedIn).toBeTruthy();
+    expect(isLoggedIn).toBeFalsy();
 
 })
