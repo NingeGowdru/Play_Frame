@@ -1,6 +1,0 @@
-this is text file
-
-this is te second file 
-this is the thied filethis is the fourth file 
-this is the fifth file
-git status
